@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Company Name: Products</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One|Raleway:300" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <img src="img/logo.png" class="logo">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="contactUs.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropbtn">About Us 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aboutUs.html">More Info</a>
+                <a href="aboutUs.html">Our Team</a>
+                <a href="aboutUs.html">Join Us</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+
+    <div class="aboutUs_img">
+        <!-- <img src=""> -->
+    </div>
+
+
+    <div class="about-us-info">
+        <img class="header-img" src="img/imagenFondo.jpg">
+        <h2>Our Mision / Values</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum veniam deserunt rerum, voluptates quod culpa magnam vel sapiente earum saepe dolores nostrum ratione blanditiis dolorum fugit. Porro corrupti quisquam numquam.</p>
+    </div>
+    
+    <h2 class="our-team">Our Team</h2>
+    <div class="team main">
+        <div class="team">
+            <a href="#"><img src="img/pic01.jpg" alt="team1"></a>
+            <h2 class="name1">Name</h2>
+            <p class="info1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odit, saepe iure ratione dicta molestiae. Laudantium eaque consequuntur aut quia, asperiores doloribus, labore cumque dolorem velit architecto ea vitae! Quia?</p>
+        </div>
+        <div class="team">
+            <a href="#"><img src="img/pic02.jpg" alt="team2"></a>
+            <h2 class="name2">Name</h2>
+            <p class="info2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odit, saepe iure ratione dicta molestiae. Laudantium eaque consequuntur aut quia, asperiores doloribus, labore cumque dolorem velit architecto ea vitae! Quia?</p>
+        </div>
+        <div class="team">
+            <a href="#"><img src="img/pic03.jpg" alt="team3"></a>
+            <h2 class="name3">Name</h2>
+            <p class="info3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odit, saepe iure ratione dicta molestiae. Laudantium eaque consequuntur aut quia, asperiores doloribus, labore cumque dolorem velit architecto ea vitae! Quia?</p>
+        </div>
+        <div class="team">
+            <a href="#"><img src="img/pic04.jpg" alt="team4"></a>
+            <h2 class="name4">Name</h2>
+            <p class="info4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odit, saepe iure ratione dicta molestiae. Laudantium eaque consequuntur aut quia, asperiores doloribus, labore cumque dolorem velit architecto ea vitae! Quia?</p>
+        </div>
+        <div class="team">
+            <a href="#"><img src="img/pic05.jpg" alt="team5"></a>
+            <h2 class="name5">Name</h2>
+            <p class="info5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odit, saepe iure ratione dicta molestiae. Laudantium eaque consequuntur aut quia, asperiores doloribus, labore cumque dolorem velit architecto ea vitae! Quia?</p>
+        </div>
+        <div class="team">
+            <a href="#"><img src="img/pic06.jpg" alt="team6"></a>
+            <h2 class="name6">Name</h2>
+            <p class="info6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odit, saepe iure ratione dicta molestiae. Laudantium eaque consequuntur aut quia, asperiores doloribus, labore cumque dolorem velit architecto ea vitae! Quia?</p>
+        </div>
+    </div>
+
+    <div class="form-joinUs">
+        <h2 class="join-us">Join Us</h2>
+        <!-- This fulfills requirement 2.4.3 a) -->
+        <!-- This fulfills requirement 2.4.7 d) -->
+        <!-- This fulfills requirement 2.4.8 a) -->
+
+
+        <form action="#" onsubmit="checkForm()" class="form-joinUs">
+            <div style="text-align: center;">
+                <label>Name</label>
+                <input type="text" id="name" class="name_text"><br>
+                 <!-- This fulfills requirement 2.4.3 c) -->
+                <span id="error-name"></span>
+                <br>
+                <label>Email</label>
+                <input type="text" id="email" class="email_text" >
+                <br>
+                <span id="error-email"></span>
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <h3>Lorem, ipsum dolor.</h3>
+        <address>
+            Written by <a href="example@example.com">Jon Doe</a>.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+            </address> 
+        <p id="lastModified"></p>
+        <a href="#" class="fab fa-twitter fa-0.8x"></a>
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram fa-0.8x"></a>
+        <a href="#" class="far fa-envelope fa-0.8x"></a>
+    </footer>
+    
+</body>
+<script src="js/main.js"></script>
+<script src="js/validation.js"></script>
+</html>

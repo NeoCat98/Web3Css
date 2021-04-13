@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Company Name: Contact Us</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One|Raleway:300" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <img src="img/logo.png" class="logo">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="contactUs.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropbtn">About Us 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aboutUs.html">More Info</a>
+                <a href="aboutUs.html">Our Team</a>
+                <a href="aboutUs.html">Join Us</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    
+    <!-- This fulfills requirement 2.4.1 c) -->
+    <div id="clock" class="clock" onload="showTime()"></div>
+    <br>
+    <h2 id="table-h2" >Where to find us</h2>
+
+    <!-- This fulfills requirement 2.4.4 a) -->
+    <table>
+        <tr>
+          <th>Country</th>
+          <th>City</th>
+          <th>Contact</th>
+        </tr>
+        <tr>
+          <td>El Salvador</td>
+          <td>Santa Tecla</td>
+          <td>Maria Anders</td>
+        </tr>
+        <tr>
+          <td>Canada</td>
+          <td>Toronto</td>
+          <td>Ernst Handel</td>
+        </tr>
+        <tr>
+          <td>Mexico</td>
+          <td>Ciudad de Mexico</td>
+          <td>Roland Mendel</td>
+        </tr>
+      </table>
+    
+        <!-- This fulfills requirement 2.4.8 a) -->
+    <form class="contact-us" action="#">
+        <div class="div">
+            <h2 class="title">Send Us an Email</h2>
+            <label for="Name">Name</label><br>
+            <input type="text" name="Name" id="Name" required><br>
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email" required>
+            <br><label for="Comments">Comments</label><br>
+            <textarea class="comments" name="Comments" id="Comments" placeholder="How can we help you?" required></textarea>
+            <button type="submit">contact</button>
+        </div>
+    </form>
+
+
+    <footer>
+        <h3>Lorem, ipsum dolor.</h3>
+        <address>
+            Written by <a href="example@example.com">Jon Doe</a>.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+            </address> 
+        <p id="lastModified"></p>
+        <a href="#" class="fab fa-twitter fa-0.8x"></a>
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram fa-0.8x"></a>
+        <a href="#" class="far fa-envelope fa-0.8x"></a>
+    </footer>
+    
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/clock.js"></script>
+</html>

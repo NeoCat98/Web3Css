@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- This fulfills requirement 2.4.1 d) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nombre Empresa: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One|Raleway:300" rel="stylesheet">     
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <img src="img/logo.png" class="logo">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="contactUs.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropbtn">About Us 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aboutUs.html">More Info</a>
+                <a href="aboutUs.html">Our Team</a>
+                <a href="aboutUs.html">Join Us</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <header>
+        <img class="header-img" src="img/imagenFondo.jpg">
+        <h1 class="animation">lorem</h1>
+        <p class="dropCap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aut, repellat ratione magni accusantium iure deleniti id quidem dolorem eveniet! Sequi corrupti est quis laborum possimus iure optio minus fugiat.</p>
+    </header>
+    <!-- This fulfills requirement 2.4.1 a) -->
+    <!-- This fulfills requirement 2.4.7 a) -->
+    <section id="main" class="main">
+        <div>
+            
+            <!-- This fulfills requirement 2.4.1 b) 1 -->
+            <a href="product.html">
+                
+                <!-- This fulfills requirement 2.4.7 c) -->
+                <img src="img/pic01.jpg" alt="imagen1">
+            </a>
+            <h2>Our Products</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque minus cupiditate cumque dolorem quod officiis!</p>
+            <form action="product.html"><input type="submit" class="button1" value="More"></form>
+        </div>
+        <div>
+            <a href="contactUs.html">
+                <!-- This fulfills requirement 2.4.1 b) 2 -->
+                <img src="img/pic02.jpg" alt="imagen2">
+            </a>
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque minus cupiditate cumque dolorem quod officiis!</p>
+            <form action="contactUs.html"><input type="submit" class="button2" value="More"></form>
+        </div>
+        <div>
+            <a href="aboutUs.html"><img src="img/pic03.jpg" alt="imagen3"></a>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque minus cupiditate cumque dolorem quod officiis!</p>
+            <form action="aboutUs.html"><input type="submit" class="button3" value="More"></form>
+        </div>
+    </section>
+    <!-- This fulfills requirement 2.4.5 a) -->
+    <div class="main video">
+        <video controls>
+            <source src="img/videoFondo2.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+    <!-- This fulfills requirement 2.4.1 e) -->
+    <footer>
+        <h3>Lorem, ipsum dolor.</h3>
+        <address>
+            Written by <a href="example@example.com">Jon Doe</a>.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+            </address> 
+        <p id="lastModified"></p>
+        <a href="#" class="fab fa-twitter fa-0.8x"></a>
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram fa-0.8x"></a>
+        <a href="#" class="far fa-envelope fa-0.8x"></a>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+</html>
